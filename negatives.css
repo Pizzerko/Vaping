@@ -34,15 +34,46 @@ h1{
   font-size: 25px;
 }
 
-.symptom > h3{
+.symptom > h3,p{
   padding-left: 170px;
 }
-.symptom > p{
-  text-align: center;
+.symptom > h3{
+  font-size: 27px;
 }
-@media screen and (max-device-width : 720px) {
-        body {
-          background-color: #DBF9FC;
-          width: 100%;
-        }
+.symptom > p{
+  font-size: 19px;
+}
+@media screen and (max-width: 720px) {
+  .links{
+    padding-right: 170px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightblue;
+    flex-wrap:wrap;
+  }
+  img{
+    width: 250px;
+    height: 200px;;
+  }
+  .photogallery img{
+    width: 100%;
+  }
+  .photogallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display:grid;
+    grid-template-columns: repeat(2,minmax(150px,1fr));
+    grid-gap: 5px;
+  }
+  .box{
+    display:flex;
+    padding-right: 170px;
+    background-color: aqua;
+    font-size: 25px;
+  }
+  .symptom > h3,p{
+    padding-right: 170px;
+    text-align: center;
+  }
       }
