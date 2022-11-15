@@ -6,6 +6,7 @@
 }
 .section1 > p{
   font-size: 22px;
+  border: 2px solid black;
   float: center;
   padding:40px;
 }
@@ -42,7 +43,6 @@ body {
   }
   .section1 > p{
     font-size: 17px;
-    border: 2px solid black;
   }
   .section1 > h1{
     font-size: 25px;
@@ -57,3 +57,4 @@ body {
           background-color: lightblue;
     }
 }
+/*Done by Vikram, added all the CSS Selectors /* 
