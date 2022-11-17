@@ -47,8 +47,9 @@ h1{
   padding-right: 170px;
 }
 @media screen and (max-width: 720px) {
+
   .links{
-    padding-right: 170px;
+    padding-left: 0px;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -70,13 +71,11 @@ h1{
     grid-gap: 5px;
   }
   .box{
-    display:flex;
-    padding-right: 170px;
     background-color: aqua;
-    font-size: 25px;
+    padding-left: 0px;
   }
   .symptom > h3,p{
-    padding-right: 170px;
-    text-align: center;
+    padding-left: 0px;
   }
       }
+  /*Done by Benson, set css selectors, and image gallery*/
