@@ -1,0 +1,44 @@
+.links > a{
+    font-size: 30px;
+    padding-left: 10px;
+  }
+    section, h1{
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+  }
+  section, p{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+  }
+  body{
+    background-color: bisque;
+  }
+  .form{
+    font-size: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  input{
+    width: 100%;
+  padding: 12px px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  }
+  textarea{
+    width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  }
+  p{
+    font-size: 30px;
+  }
